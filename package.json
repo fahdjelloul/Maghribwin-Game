@@ -1,0 +1,36 @@
+{
+  "name": "maghribwin-game",
+  "version": "1.0.0",
+  "description": "🇲🇦 A collection of Moroccan-inspired games with interactive gameplay",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "lint": "eslint src/",
+    "lint:fix": "eslint src/ --fix"
+  },
+  "keywords": [
+    "moroccan",
+    "games",
+    "interactive",
+    "entertainment",
+    "مغربي",
+    "ألعاب"
+  ],
+  "author": "fahdjelloul",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "dotenv": "^16.0.3",
+    "mongoose": "^7.0.0",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "jest": "^29.5.0",
+    "eslint": "^8.40.0"
+  }
+}
